@@ -772,14 +772,11 @@ footer {
   user-select: none;
 }
 
-.user-privacy {
+.privacy-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-}
-.user-privacy-label {
-  line-height: 1.17;
 }
 
 .form-agreement-checkbox {
