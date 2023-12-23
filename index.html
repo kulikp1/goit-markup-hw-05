@@ -574,32 +574,34 @@
             </div>
           </div>
 
-          <div class="form-wrapper">
-            <label class="form-label" for="user-message">Comment</label>
+          <div class="form-comment">
+            <label class="form-label" for="user-comment">Comment</label>
             <textarea
               class="form-message"
-              name="user-message"
-              id="user-message"
+              name="user-comment"
+              id="user-comment"
               rows="4"
               placeholder="Text input"
             ></textarea>
           </div>
-
-          <label class="form-agreement">
+          <div class="form-agreement">
             <input
+              id="user-privacy"
               class="checkbox visually-hidden"
               type="checkbox"
-              name="user-agreement"
-              value="false"
+              name="user-privacy"
+              value="true"
             />
-            <span class="form-agreement-checkbox">
-              <svg class="form-agreement-icon" width="10" height="10">
-                <use href="./images/sprite.svg#icon-complete1"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a class="form-agreement-link" href="">Privacy Policy</a>
-          </label>
+            <label for="user-privacy">
+              <span class="form-agreement-checkbox" width="16" height="16">
+                <svg class="form-agreement-icon" width="10" height="10">
+                  <use href="./images/sprite.svg#icon-complete1"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="form-agreement-link" href="">Privacy Policy</a>
+            </label>
+          </div>
         </form>
         <button class="form-btn" type="button">Send</button>
       </div>

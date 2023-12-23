@@ -721,15 +721,14 @@ footer {
   transform: translateY(-50%);
 
   fill: #2e2f42;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus + .form-icon {
   fill: #4d5ae5;
 }
-.form-wrapper {
-  margin-bottom: 8px;
+.form-comment {
+  margin-bottom: 16px;
 }
 .form-message {
   resize: none;
@@ -755,6 +754,7 @@ footer {
   color: #2e2f4266;
 }
 /* Custom checkbox */
+
 .form-agreement {
   display: block;
   margin-bottom: 24px;
@@ -768,6 +768,12 @@ footer {
   user-select: none;
 }
 
+.user-privacy {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
 .checkbox {
 }
 
