@@ -843,8 +843,10 @@ footer {
   color: currentColor;
 }
 .subscribe-form-btn {
+  min-width: 165px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
   padding: 8px 24px;
 
@@ -860,4 +862,5 @@ footer {
 }
 .subscribe-form-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
