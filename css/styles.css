@@ -651,6 +651,8 @@ footer {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
 }
 
 .modal-btn-icon {
