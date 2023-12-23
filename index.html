@@ -584,6 +584,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
+          <!-- ... -->
           <div class="form-agreement">
             <input
               id="user-privacy"
@@ -591,11 +592,16 @@
               type="checkbox"
               name="user-privacy"
               value="true"
+              required
             />
-
             <label class="privacy-label" for="user-privacy">
               <span class="form-agreement-checkbox">
-                <svg class="form-agreement-icon" width="10" height="8">
+                <svg
+                  class="form-agreement-icon"
+                  width="10"
+                  height="8"
+                  aria-label="checkmark"
+                >
                   <use href="./images/sprite.svg#icon-Vector-2"></use>
                 </svg>
               </span>
