@@ -753,6 +753,10 @@ footer {
 .form-message::placeholder {
   color: #2e2f4266;
 }
+
+.form-wrapper {
+  margin-bottom: 8px;
+}
 /* Custom checkbox */
 
 .form-agreement {
